@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    outline: none;
+    border: none;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#d2::-webkit-scrollbar{
+    width: 20px;
+    height: 20px;
+}
+#d2::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom,#0ae2ff,#346aff);
+    border-radius: 50px;
+}
+#d2::-webkit-scrollbar-track{
+    background: #ffffff00 ;
+    border-radius: 50px;
+}
+/* 
+ul li:hover{
+    background-color: #ffffff33;
+} */
